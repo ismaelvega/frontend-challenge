@@ -1,18 +1,9 @@
-$white: #FFF;
-$dark-gray: #27282C;
-$light-gray: #939395;
-$main-green: #11B785;
-$purple: #9D17C9;
-$blue: #2C92CB;
-$light-purple: #F330E0;
-
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
 
 html{
   font-size: 16px;
@@ -25,4 +16,6 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }

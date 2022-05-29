@@ -1,0 +1,27 @@
+@use '../../../styles/variables.scss' as var;
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h1{
+    font-size: 3.4rem;
+    color: var.$white;
+  }
+  span{
+    font-size: 3.4rem;
+    color: var.$main-green;
+  }
+
+  .pricing_cards_container{
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+  }
+
+}

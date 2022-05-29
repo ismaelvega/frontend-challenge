@@ -1,15 +1,21 @@
+@use './variables.scss' as var;
+
 .wrapper {
-  padding: 0 2rem;
+  padding: 0 8%;
+  background-color: var.$dark-gray;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
 }
 
 .header{
-
+  border: 1px solid red;
 }
 
 .main {
-  
+  border: 1px solid red;
 }
 
 .footer {
-  
+  border: 1px solid red;
 }

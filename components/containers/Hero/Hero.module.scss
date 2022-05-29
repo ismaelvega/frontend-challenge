@@ -1,0 +1,79 @@
+@use '../../../styles/variables.scss' as var;
+
+.container{
+  margin-top: 70px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .content{
+    width: 50%;
+    h1{
+      color: var.$white;
+      font-size: 3.6rem;
+    }
+  
+    span{
+      background-image: linear-gradient(60deg, var.$light-purple, var.$purple);
+      background-clip: text;
+      color: transparent;
+    }
+    
+    h2{
+      color: var.$main-green;
+      font-size: 1.5rem;
+    }
+  
+    p{
+      margin-top: 16px;
+      margin-bottom: 30px;
+      color: var.$light-gray;
+      max-width: 600px;
+    }
+  }
+
+  .robot_container{
+    border: 1px solid yellow;
+    width: 65%;
+    // position: relative;
+    // z-index: 2;
+    .robot_bkg{
+      width: 90%;
+      height: fit-content;
+      padding-left: 5%;
+    }
+
+    .bars{
+      border: 1px solid green;
+      position: absolute;
+      top: 32vw;
+      left: 36vw;
+      z-index: 3;
+      transform: rotate(310deg);
+      .glass_bar{
+        margin-top: 10px;
+        width: 60vw;
+        height: 7vw;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 15px;
+        &:nth-child(1){
+          margin-left: 11%;
+        }
+        &:nth-child(2){
+          margin-left: 5%;
+        }
+      }
+    }
+    .robot_img{
+      position: absolute;
+      z-index: 4;
+      width: 45vw;
+      top: 13vw;
+      left: 39vw;
+    height: fit-content;
+    padding-left: 5%;
+    }
+  }
+}

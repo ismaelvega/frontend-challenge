@@ -1,0 +1,40 @@
+@use '../../../styles/variables.scss' as var;
+
+.container{
+  padding: 85px 0 77px 69px;
+  margin-top: 250px;
+  margin-bottom: 200px;
+  background-color: rgba(30, 30, 30, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  .textContent{
+    width: 50%;
+    h1{
+      font-size: 3.2rem;
+      color: var.$white;
+    }
+    p{
+      font-size: 1.6rem;
+      color: var.$white;
+      margin-bottom: 40px;
+    }
+    span{
+      font-size: 3.2rem;
+      color: var.$purple;
+    }
+  }
+
+  .robot_img{
+    position: absolute;
+    right: -1vw;
+    bottom: -18vw;
+    width: 28vw;
+    height: 70vw;
+  }
+}
+
+

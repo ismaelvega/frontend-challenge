@@ -1,0 +1,13 @@
+@use '../../styles/variables.scss' as var;
+
+.cta_button{
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: var.$white;
+  padding: 11px 24px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to left, rgba(17, 183, 133, 1), rgba(243, 48, 224, 1));
+  cursor: pointer;
+}

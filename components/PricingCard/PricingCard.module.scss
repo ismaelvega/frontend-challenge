@@ -1,0 +1,54 @@
+@use '../../styles/variables.scss' as var;
+
+.container{
+  border: 5px dashed rgba(147, 147, 149, 1);
+  border-radius: 16px;
+  min-width: 310px;
+  min-height: 370px;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+  position: relative;
+
+  .card_container{
+    min-width: 260px;
+    min-height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px;
+    position: absolute;
+    top: -120px;
+
+    .icon_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 143px;
+      min-height: 143px;
+      background-color: #EDEEF2;
+      border-radius: 20px;
+      box-shadow: 3px 3px 20px;
+    }
+    
+    .price{
+      font-size: 3.2rem;
+      margin-top: 35px;
+    }
+  }
+
+  .description{
+      color: var.$white;
+    font-size: 1.2rem;
+    text-align: center;
+    
+    // padding: 0 20px;
+  }
+}

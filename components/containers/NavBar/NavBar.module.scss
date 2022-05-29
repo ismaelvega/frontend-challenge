@@ -1,0 +1,32 @@
+@use '../../../styles/variables.scss' as var;
+
+.navbar{
+  width: 100%;
+  color: var.$white;
+  border: 1px solid blue;
+  padding: 1.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 94px;
+  height: 75px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.2rem;
+  .section p{
+    font-size: 1rem;
+    color: var.$light-gray;
+    &:hover{
+      color: var.$main-green;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
